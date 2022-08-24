@@ -8,12 +8,25 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+}
+
+#logo {
+    align-self: center;
+}
+
+#logo-wrapper {
+    padding: 10px 0;
+    text-align: center;
+    background-color: black;
+    color: #fff;
 }
 
 #form-wrapper {
     background-color: rgb(222, 223, 224);
     height: 100vh;
     display: flex;
+    flex: 2;
     flex-direction: column;
     justify-content: center;
 }
@@ -64,6 +77,7 @@ input:focus {
 }
 
 button {
+    cursor: pointer;
     border: none;
     outline: none;
     padding: 10px 40px;
@@ -73,7 +87,15 @@ button {
     margin-bottom: 30px;
 }
 
+button:focus {
+    transform: scale(.95);
+}
+
 button,
 button + p {
     margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
 }
