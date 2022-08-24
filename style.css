@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#form-wrapper {
+    background-color: rgb(222, 223, 224);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-title {
+    margin-bottom: 30px;
+}
+
+#header {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+#fields-wrapper {
+    margin-bottom: 40px;
+    padding: 30px 0 30px 30px;
+    background-color: #fff;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.form-control-wrapper {
+    display: flex;
+}
+
+.form-control-wrapper > div:first-child {
+    margin-right: 70px;
+}
+
+.form-control-wrapper > div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    outline: none;
+    padding: 7px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 1px 2px 5px 5px rgba(0, 0, 0, .2);
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px 40px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+button,
+button + p {
+    margin-left: 30px;
+}
