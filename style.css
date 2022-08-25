@@ -18,9 +18,9 @@ body {
 }
 
 #logo-wrapper {
-    padding: 10px 0;
+    padding: 30px 0;
     text-align: center;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .78);
     color: #fff;
 }
 
