@@ -100,12 +100,17 @@ input:focus {
     border: 1px solid #f00;
 }
 
+.error-message {
+    color: #f00;
+    visibility: hidden;
+}
+
 button {
     cursor: pointer;
     border: none;
     outline: none;
     padding: 10px 40px;
-    background-color: blue;
+    background-color: #00f;
     color: #fff;
     border-radius: 5px;
     margin-bottom: 30px;
