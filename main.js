@@ -4,11 +4,15 @@ const btn = document.querySelector('#btn');
 
 btn.addEventListener('click', (e) => {
     e.preventDefault();
+    checkPassword();
+});
+
+function checkPassword() {
     if(password1.value !== password2.value) {
         document.querySelectorAll('[type="password"]').forEach(el => {
             el.className = 'error';
         })
     }
-})
+}
 
 
