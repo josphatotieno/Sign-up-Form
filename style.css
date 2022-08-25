@@ -9,10 +9,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
     display: flex;
+    background: url('players.jpeg') no-repeat center center/cover;
 }
 
 #logo {
     align-self: center;
+    flex: 1;
 }
 
 #logo-wrapper {
@@ -31,13 +33,26 @@ body {
     justify-content: center;
 }
 
+#header {
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+
+#header span{
+    color: blue;
+}
+
+#header p {
+    font-size: 25px;
+}
+
 #form-title {
     margin-bottom: 30px;
 }
 
-#header {
-    padding-left: 30px;
-    margin-bottom: 50px;
+#form-title p {
+    font-size: 20px;
+    font-weight: bold;
 }
 
 #fields-wrapper {
@@ -74,6 +89,10 @@ input {
 input:focus {
     border: 1px solid blue;
     box-shadow: 1px 2px 5px 5px rgba(0, 0, 0, .2);
+}
+
+.error {
+    border: 1px solid #f00;
 }
 
 button {
