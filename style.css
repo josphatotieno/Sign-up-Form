@@ -24,6 +24,11 @@ body {
     color: #fff;
 }
 
+#logo-wrapper p {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 #form-wrapper {
     background-color: rgb(222, 223, 224);
     height: 100vh;
